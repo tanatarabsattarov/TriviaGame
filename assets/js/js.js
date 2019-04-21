@@ -86,7 +86,7 @@ function result() {
   time = 30;
   $("#time").text(time);
 
-  $("#game").html("<h4 style='float:right'>Time left: <span id='time' style='color:red;'>30</span></h4><h2>All done, heres your results!</h2>");
+  $("#game").html("<h4 style='float:right'>Time left: <span id='time' style='color:red;'>30</span></h4><h2>All done, check your results!</h2>");
   $("#game").append("<h3>Correct Answers: " + correctAnswers + "</h3>");
   $("#game").append("<h3>Incorrect Answers: " + incorrectAnswers + "</h3>");
   $("#game").append("<h3>Unanswered: " + notAnswerd + "</h3>");
