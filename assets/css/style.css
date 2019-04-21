@@ -1,0 +1,37 @@
+.btn-warning {
+    width:40%;
+    padding:15px;
+    font-size:30px;
+    margin-top:30px;
+}
+.btn-success {
+    width:100%;
+    padding:15px;
+    margin-top:10px;
+}
+.btn-success:focus {
+    background-color: red !important;
+    color:white !important;
+}
+.jumbotron {
+   width:960px;
+   background: rgba(233, 236, 239, .9);
+}
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 8vh;
+}
+.text {
+    background-color: red;
+    color:white;
+    max-width:400px;
+    padding:15px;
+    font-size:40px;
+    text-align: center;
+    margin:20px auto;
+}
+body {
+    font-size:25px;
+    min-height:100vh;
+    background: url("../images/bg.jpg") no-repeat center bottom/cover;
+}
